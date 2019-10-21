@@ -1,1 +1,6 @@
 /* Add your styles here */
+.mainContainer, .innerContainer, 
+.dividerContainer, .outerContainer, 
+.innerContainer-main, .outerContainer-input {
+	display: flex;
+}
