@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Mid Q4</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-      <!-- Your site content here -->
-      <script src="jquery-3.3.1.min.js"></script>
-      <script src="script.js"></script>
-  </body>
+<head>
+	<title>Mid Q4</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	<div class='mainContainer'>
+		
+		<div class="innerContainer">
+			<p>Simple Hangman</p>
+
+			<div class='innerContainer-main'>
+				<p>Enter a number between 0 and 5</p>
+				<input type="number" name="num" min=0 max=5>
+				<button>Play</button>
+			</div>
+		</div>
+
+		<div class="dividerContainer">
+			<div class='divider'></div>
+		</div>
+
+		<div class="outerContainer">
+			<div class='outerContainer-input'>
+				<input type="text" name="guess">
+				<p class='feedback'></p>
+			</div>
+			<div class='hangman'></div>
+		</div>
+	</div>
+
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="script.js"></script>
+</body>
 </html>
